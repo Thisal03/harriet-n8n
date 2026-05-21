@@ -1,0 +1,5 @@
+workflow,status,lastRun,duration,source,notes
+Invoice Processing,Active,2m ago,32s,Google Sheets,Triggered by webhook
+Lead Enrichment,Active,7m ago,48s,Google Sheets,API enrichment
+Slack Notifications,Paused,1h ago,10s,Google Sheets,Paused after error
+Data Sync,Active,30s ago,1m 8s,Google Sheets,Synced with DB
