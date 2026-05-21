@@ -14,7 +14,14 @@ interface AdminSidebarProps {
   onClose?: () => void
 }
 
-const navItems = [
+type NavItem = {
+  href: string
+  icon: typeof Layers
+  label: string
+  exact?: boolean
+}
+
+const navItems: NavItem[] = [
   { href: "/admin/workflows", icon: Layers, label: "Workflows" },
 ]
 
