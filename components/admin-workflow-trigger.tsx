@@ -70,7 +70,7 @@ const vendorOptions: WorkflowInputOption[] = [
   { value: "516", label: "CICADA" },
   { value: "524", label: "CupidCloak" },
   { value: "426", label: "Spring and Summer" },
-  { value: "225", label: "Aadaraya Ceylon" },
+  { value: "255", label: "Aadaraya Ceylon" },
 ]
 
 const vendorLabelsById: Record<string, string> = {
@@ -84,7 +84,7 @@ const vendorLabelsById: Record<string, string> = {
   "516": "CICADA",
   "524": "CupidCloak",
   "426": "Spring and Summer",
-  "225": "Aadaraya Ceylon",
+  "255": "Aadaraya Ceylon",
 }
 
 const workflowInputConfigs: WorkflowInputConfig[] = [
